@@ -1,4 +1,4 @@
-float maxiterations = 100;
+float maxiterations = 120;
 float ca = -0.75;
 float cb = 0;
 float nexta, nextb;
@@ -7,7 +7,7 @@ float angle = 0;
 
 void setup()
 {
-  size(900, 900);
+  size(800, 800);
   loadPixels();
   
   colorMode(HSB);
